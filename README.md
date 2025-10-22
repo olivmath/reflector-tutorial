@@ -193,6 +193,7 @@ mod reflector;
 
 // ... more code coming soon
 ```
+
 ---
 
 Now, save the TESTNET Reflector contract address.
@@ -291,19 +292,19 @@ stellar contract invoke --id YOUR_CONTRACT_ADDRESS_HERE --source-account alice -
 
 #### Mainnet
 
-| Feed                   | Description                                                                                                                              | Contract                                                 | Base symbol   | Decimals | Sampling   | Retention |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------- | -------- | ---------- | --------- |
-| External CEX & DEX     | Any cryptocurrency token, from any chain. Quoted based on data from centralized and decentralized exchanges.                             | CAFJZQWSED6YAWZU3GWRTOCNPPCGBN32L7QV43XX5LZLFTK6JLN34DLN | USD           | 14       | 5 minutes  | 24 hours  |
-| Stellar Pubnet         | Price feeds for assets issued on Stellar Public Network. Calculated based on trades recorded on Stellar Classic DEX and liquidity pools. | CALI2BYU2JE6WVRUFYTS6MSBNEHGJ35P4AVCZYF3B6QOE3QKOB2PLE6M | USDCcentre.io | 14       | 5 minutes  | 24 hours  |
-| Foreign Exchange Rates | Fiat currencies exchange rates. Aggregated from multiple central banks and commercial sources.                                           | CBKGPWGKSKZF52CFHMTRR23TBWTPMRDIYZ4O2P5VS65BMHYH4DXMCJZC | USD           | 14       | 5 minutes  | 24 hours  |
+| Feed                   | Contract                                                 | Base symbol   | Decimals | Sampling  | Retention |
+| ---------------------- | -------------------------------------------------------- | ------------- | -------- | --------- | --------- |
+| External CEX & DEX     | CAFJZQWSED6YAWZU3GWRTOCNPPCGBN32L7QV43XX5LZLFTK6JLN34DLN | USD           | 14       | 5 minutes | 24 hours  |
+| Stellar Pubnet         | CALI2BYU2JE6WVRUFYTS6MSBNEHGJ35P4AVCZYF3B6QOE3QKOB2PLE6M | USDCcentre.io | 14       | 5 minutes | 24 hours  |
+| Foreign Exchange Rates | CBKGPWGKSKZF52CFHMTRR23TBWTPMRDIYZ4O2P5VS65BMHYH4DXMCJZC | USD           | 14       | 5 minutes | 24 hours  |
 
 #### Testnet
 
-| Feed                   | Description                                                                                                                              | Contract                                                 | Base symbol   | Decimals | Sampling   | Retention |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------- | -------- | ---------- | --------- |
-| Stellar Pubnet         | Price feeds for assets issued on Stellar Public Network. Calculated based on trades recorded on Stellar Classic DEX and liquidity pools. | CAVLP5DH2GJPZMVO7IJY4CVOD5MWEFTJFVPD2YY2FQXOQHRGHK4D6HLP | USDCcentre.io | 14       | 5 minutes  | 24 hours  |
-| Foreign Exchange Rates | Fiat currencies exchange rates. Aggregated from multiple central banks and commercial sources.                                           | CCSSOHTBL3LEWUCBBEB5NJFC2OKFRC74OWEIJIZLRJBGAAU4VMU5NV4W | USD           | 14       | 5 minutes  | 24 hours  |
-| External CEX & DEX     | Any cryptocurrency token, from any chain. Quoted based on data from centralized and decentralized exchanges.                             | CCYOZJCOPG34LLQQ7N24YXBM7LL62R7ONMZ3G6WZAAYPB5OYKOMJRN63 | USD           | 14       | 5 minutes  | 24 hours  |
+| Feed                   | Contract                                                 | Base symbol   | Decimals | Sampling  | Retention |
+| ---------------------- | -------------------------------------------------------- | ------------- | -------- | --------- | --------- |
+| External CEX & DEX     | CCYOZJCOPG34LLQQ7N24YXBM7LL62R7ONMZ3G6WZAAYPB5OYKOMJRN63 | USD           | 14       | 5 minutes | 24 hours  |
+| Stellar Pubnet         | CAVLP5DH2GJPZMVO7IJY4CVOD5MWEFTJFVPD2YY2FQXOQHRGHK4D6HLP | USDCcentre.io | 14       | 5 minutes | 24 hours  |
+| Foreign Exchange Rates | CCSSOHTBL3LEWUCBBEB5NJFC2OKFRC74OWEIJIZLRJBGAAU4VMU5NV4W | USD           | 14       | 5 minutes | 24 hours  |
 
 ### Community
 
@@ -330,4 +331,7 @@ You now have a solid foundation for integrating Reflector price oracles into you
 - Join the community for support
 
 Happy building! 🚀
+
+```
+
 ```
