@@ -70,7 +70,6 @@ Before starting, make sure you have:
 ### Required Tools
 
 - **Rust** (stable toolchain)
-- **Soroban CLI**
 - **Stellar CLI**
 
 ## 🛠️ Setting Up Your Environment
@@ -86,18 +85,19 @@ rustup install stable
 rustup +stable target add wasm32v1-none
 ```
 
-### Step 2: Install Soroban CLI
+### Step 2: Install Stellar CLI
 
 ```bash
-# Install Soroban CLI
-cargo install --locked soroban-cli
+# Install Stellar CLI
+brew install stellar-cli
+# 
 ```
 
 ### Step 3: Create Your Project
 
 ```bash
 # Create a new Soroban project
-soroban contract init hello-reflector
+stellar contract init hello-reflector
 cd hello-reflector
 ```
 
@@ -331,7 +331,3 @@ You now have a solid foundation for integrating Reflector price oracles into you
 - Join the community for support
 
 Happy building! 🚀
-
-```
-
-```
